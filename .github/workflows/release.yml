@@ -67,8 +67,9 @@ jobs:
         shell: bash
         run: |
           version="$(cat VERSION)"
+          owner="$(printf '%s' "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')"
           echo "$GH_TOKEN" | oras login ghcr.io --username "$GITHUB_ACTOR" --password-stdin
-          oras push "ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/freescore-for-mac:${version}" \
+          oras push "ghcr.io/${owner}/freescore-for-mac:${version}" \
             --artifact-type application/vnd.freescore.macos.app.v1+zip \
             --annotation "org.opencontainers.image.source=https://github.com/${GITHUB_REPOSITORY}" \
             --annotation "org.opencontainers.image.version=${version}" \
