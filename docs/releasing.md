@@ -13,6 +13,8 @@
 3. `main`에 변경을 푸시한 다음 같은 커밋에 `git tag v0.5.1`을 만들고 태그를 푸시합니다. 태그명과 `VERSION`이 다르면 배포 작업이 실패합니다.
 4. Release와 GHCR 패키지를 확인합니다. 사이트는 새 최신 릴리스를 자동 표시합니다.
 
+태그 작업을 재실행해야 하는데 태그 이후에 CI·배포 코드를 고친 경우, `main`의 `VERSION`이 해당 릴리스와 같을 때 Actions → **Release app and package** → **Run workflow**에서 버전을 입력해 다시 게시할 수 있습니다. 기존 릴리스의 ZIP과 SHA256은 교체됩니다.
+
 릴리스 자산 이름 `FreeScore-for-Mac.zip`은 모든 버전에서 동일하게 유지합니다. 따라서 `/releases/latest/download/FreeScore-for-Mac.zip` 링크는 최신 버전을 가리킵니다. 릴리스 작업을 재실행하면 기존 릴리스 자산을 교체합니다.
 
 ## 로컬 빌드
