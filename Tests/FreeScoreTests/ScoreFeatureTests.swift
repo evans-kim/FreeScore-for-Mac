@@ -617,14 +617,17 @@ final class ScoreFeatureTests: XCTestCase {
     }
 
     @MainActor
-    func testEmptyTrackPlaybackMovesGuideWithoutMIDIPlayerError() {
+    func testEmptyTrackPlaybackMovesGuideWithoutMIDIPlayerError() async {
         let store = ScoreStore(noteSound: NoteSoundSpy())
         store.seekToBeat(2.25)
         store.play()
         XCTAssertTrue(store.isPlaying)
         XCTAssertNil(store.errorMessage)
         XCTAssertEqual(store.playbackBeat, 2.25)
-        RunLoop.main.run(until: Date().addingTimeInterval(0.08))
+        let deadline = Date().addingTimeInterval(1)
+        while (store.playbackBeat ?? 0) <= 2.25 && Date() < deadline {
+            try? await Task.sleep(nanoseconds: 20_000_000)
+        }
         XCTAssertGreaterThan(store.playbackBeat ?? 0, 2.25)
         store.seekToBeat(4)
         XCTAssertEqual(store.playbackBeat, 4)
@@ -636,11 +639,14 @@ final class ScoreFeatureTests: XCTestCase {
     }
 
     @MainActor
-    func testPlaybackResumesAtStoppedPosition() {
+    func testPlaybackResumesAtStoppedPosition() async {
         let store = ScoreStore(noteSound: NoteSoundSpy())
         store.seekToBeat(1)
         store.play()
-        RunLoop.main.run(until: Date().addingTimeInterval(0.08))
+        let deadline = Date().addingTimeInterval(1)
+        while (store.playbackBeat ?? 0) <= 1 && Date() < deadline {
+            try? await Task.sleep(nanoseconds: 20_000_000)
+        }
         store.stop()
         let pausedBeat = store.visiblePlaybackBeat!
         XCTAssertGreaterThan(pausedBeat, 1)
