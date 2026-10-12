@@ -1,0 +1,132 @@
+{
+  "page" : {
+    "arranger" : "",
+    "composer" : "",
+    "denominator" : 4,
+    "keySignature" : 2,
+    "measuresPerLine" : 8,
+    "numerator" : 4,
+    "title" : "scale"
+  },
+  "sourceMIDI" : "TVRoZAAAAAYAAAABAeBNVHJrAAAAZAD\/AwVQaWFubwD\/UQMHoSAA\/1gEBAIYCACQPGCDMIA8ADCQPmCDMIA+ADCQQGCDMIBAADCQQWCDMIBBADCQQ2CDMIBDADCQRWCDMIBFADCQR2CDMIBHADCQSGCDMIBIADD\/LwA=",
+  "tempo" : 120,
+  "tracks" : [
+    {
+      "clef" : "treble",
+      "id" : "872029D8-85C4-4385-95C3-0990C750AFBC",
+      "name" : "Piano",
+      "notes" : [
+        {
+          "channel" : 0,
+          "durationBeats" : 1.25,
+          "id" : "920CBEE7-42BA-488F-8ABC-9C2894B0AA71",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 0,
+          "pitch" : 60,
+          "startBeat" : 0.5,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "D3F02C7C-A91F-4A75-8DA0-3BB14290D951",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 1,
+          "pitch" : 64,
+          "startBeat" : 1.75,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "934D7952-7A0A-4BAE-8E68-C3168EE07E4C",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 2,
+          "pitch" : 65,
+          "startBeat" : 2.75,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "ADFEB2E5-E6C5-41D8-A8BD-B663A05587E8",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 3,
+          "pitch" : 66,
+          "startBeat" : 3.75,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "E41B95C7-764C-4059-B0B6-19BD2D92E7F7",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 4,
+          "pitch" : 67,
+          "startBeat" : 4.25,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "2F9B5CDC-ACCB-4FA2-ABC5-FD0739C21700",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 5,
+          "pitch" : 69,
+          "startBeat" : 5.25,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "8FAD9601-A4FD-4252-A116-80BF78083EEE",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 6,
+          "pitch" : 71,
+          "startBeat" : 6.25,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "DDFA9E87-FAF6-4509-B467-043139A975D6",
+          "lyric" : "",
+          "originalDurationBeats" : 0.8999999761581421,
+          "originalStartBeat" : 7,
+          "pitch" : 72,
+          "startBeat" : 7.25,
+          "velocity" : 96
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "8AB0206F-B553-4304-8F6D-9CB4EB35B0A1",
+          "lyric" : "",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 8.25,
+          "pitch" : 60,
+          "startBeat" : 8.25,
+          "velocity" : 90
+        },
+        {
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "0616081A-84A4-4CE9-B9FF-5C459C0C60FD",
+          "lyric" : "",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 9.25,
+          "pitch" : 60,
+          "startBeat" : 9.25,
+          "velocity" : 90
+        }
+      ]
+    }
+  ]
+}

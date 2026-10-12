@@ -1,0 +1,567 @@
+{
+  "chordEvents" : [
+    {
+      "chord" : {
+        "enteredRoot" : "G",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "",
+        "tonicOffset" : 0
+      },
+      "positionTick" : 0
+    },
+    {
+      "chord" : {
+        "bassOffset" : 11,
+        "enteredBass" : "F#",
+        "enteredRoot" : "D",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "",
+        "tonicOffset" : 7
+      },
+      "positionTick" : 1920
+    },
+    {
+      "chord" : {
+        "enteredRoot" : "E",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "m7",
+        "tonicOffset" : 9
+      },
+      "positionTick" : 3840
+    },
+    {
+      "chord" : {
+        "enteredRoot" : "C",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "add9",
+        "tonicOffset" : 5
+      },
+      "positionTick" : 5760
+    },
+    {
+      "chord" : {
+        "enteredRoot" : "A",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "m7",
+        "tonicOffset" : 2
+      },
+      "positionTick" : 7680
+    },
+    {
+      "chord" : {
+        "enteredRoot" : "D",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "sus4",
+        "tonicOffset" : 7
+      },
+      "positionTick" : 9600
+    },
+    {
+      "chord" : {
+        "bassOffset" : 4,
+        "enteredBass" : "B",
+        "enteredRoot" : "G",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "",
+        "tonicOffset" : 0
+      },
+      "positionTick" : 11520
+    },
+    {
+      "chord" : {
+        "enteredRoot" : "G",
+        "entryKey" : 1,
+        "followsKey" : true,
+        "suffix" : "",
+        "tonicOffset" : 0
+      },
+      "positionTick" : 13440
+    }
+  ],
+  "navigationMarks" : [
+
+  ],
+  "page" : {
+    "arranger" : "",
+    "composer" : "FreeScore for Mac",
+    "denominator" : 4,
+    "keySignature" : 1,
+    "lyricFontName" : "",
+    "lyricFontSize" : 15,
+    "measureWidthRatio" : 1.5,
+    "measuresPerLine" : 4,
+    "noteSpacing" : 38,
+    "numerator" : 4,
+    "rowGap" : 20,
+    "title" : "자유로운 악보"
+  },
+  "repeatSections" : [
+
+  ],
+  "sourceMIDI" : "TVRoZAAAAAYAAAABAeBNVHJrAAAAZAD\/AwVQaWFubwD\/UQMHoSAA\/1gEBAIYCACQPGCDMIA8ADCQPmCDMIA+ADCQQGCDMIBAADCQQWCDMIBBADCQQ2CDMIBDADCQRWCDMIBFADCQR2CDMIBHADCQSGCDMIBIADD\/LwA=",
+  "tempo" : 120,
+  "tracks" : [
+    {
+      "clef" : "treble",
+      "id" : "208921C8-B5F2-4168-9086-51ECB808CC7E",
+      "name" : "Piano",
+      "notes" : [
+        {
+          "additionalLyrics" : [
+            "2.마"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "900C76AB-9EAE-4AB6-9923-C7ACD371CC4D",
+          "lyric" : "1.오",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 0,
+          "pitch" : 67,
+          "startBeat" : 0,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "음"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "6AEFFB43-3FA1-48A5-8CE8-0074F36AAE93",
+          "lyric" : "늘",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 1,
+          "pitch" : 69,
+          "startBeat" : 1,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "속"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "C5112BE8-714D-41BE-A69A-9F9EDB44DECF",
+          "lyric" : "도",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 2,
+          "pitch" : 71,
+          "startBeat" : 2,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "의"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "553A4A72-5C2E-4ACD-801E-5ADDD3B522DE",
+          "lyric" : "새",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 3,
+          "pitch" : 74,
+          "startBeat" : 3,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "작"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "B0D273CE-E877-45ED-834A-BBFE656A1D07",
+          "lyric" : "로",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 4,
+          "pitch" : 71,
+          "startBeat" : 4,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "은"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "86CDDFB6-7A1B-4199-B761-49FC021FB317",
+          "lyric" : "운",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 5,
+          "pitch" : 69,
+          "startBeat" : 5,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "선"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "6F66A53C-0555-42EF-B0E1-A0C37F675240",
+          "lyric" : "노",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 6,
+          "pitch" : 67,
+          "startBeat" : 6,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "율"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "D9EFBC31-62D8-422B-9B8F-1810D4C6F3B8",
+          "lyric" : "래",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 7,
+          "pitch" : 66,
+          "startBeat" : 7,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "한"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "19D6082C-0125-48FE-A621-8219A8607ED7",
+          "lyric" : "악",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 8,
+          "pitch" : 64,
+          "startBeat" : 8,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "음"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "16AF343A-B3F1-4A5A-B004-B1D7FA849E2E",
+          "lyric" : "보",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 9,
+          "pitch" : 67,
+          "startBeat" : 9,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "씩"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "634A6EA3-0D82-46A2-A3BC-8DC3F8C468B0",
+          "lyric" : "위",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 10,
+          "pitch" : 69,
+          "startBeat" : 10,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "더"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "D9A8FA1A-BCE1-4543-9982-CE9F3A99EE0D",
+          "lyric" : "에",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 11,
+          "pitch" : 71,
+          "startBeat" : 11,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "채"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "5E8112EE-112E-48C7-B571-C1BE22FC99D7",
+          "lyric" : "그",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 12,
+          "pitch" : 69,
+          "startBeat" : 12,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "워"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "586BCAC3-FA4D-427A-88C6-C99E8EC2BD6D",
+          "lyric" : "려",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 13,
+          "pitch" : 67,
+          "startBeat" : 13,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "가"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "2446A105-E93D-4D7E-8D2F-C23F2A20D606",
+          "lyric" : "가",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 14,
+          "pitch" : 64,
+          "startBeat" : 14,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "요"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "67647934-E3B2-42EF-BB2B-8DECBECD5042",
+          "lyric" : "요",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 15,
+          "pitch" : 62,
+          "startBeat" : 15,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "다"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "AD455AC3-C5FD-42A1-990E-1342E86D216E",
+          "lyric" : "코",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 16,
+          "pitch" : 64,
+          "startBeat" : 16,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "시"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "66127A71-2BBF-414F-B80E-F31E76FD50EB",
+          "lyric" : "드",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 17,
+          "pitch" : 67,
+          "startBeat" : 17,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "돌"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "7F9D5006-603F-4134-965A-DF9314828B7E",
+          "lyric" : "따",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 18,
+          "pitch" : 69,
+          "startBeat" : 18,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "아"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "89E40F7C-1AE1-4D84-A9A1-215B789FFD14",
+          "lyric" : "라",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 19,
+          "pitch" : 72,
+          "startBeat" : 19,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "부"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "8E83C85E-730E-480D-B3F0-4DD7AFF6EFD4",
+          "lyric" : "흐",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 20,
+          "pitch" : 71,
+          "startBeat" : 20,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "르"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "42573FAD-22FD-45EA-A905-0C08AC2C7E47",
+          "lyric" : "르",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 21,
+          "pitch" : 69,
+          "startBeat" : 21,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "는"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "2B8555E9-E5B4-4DA0-8713-5DEE04D74552",
+          "lyric" : "는",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 22,
+          "pitch" : 67,
+          "startBeat" : 22,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "밤"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "33A78D96-75A7-485E-929E-E6E08A9E95E4",
+          "lyric" : "밤",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 23,
+          "pitch" : 66,
+          "startBeat" : 23,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "우"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "DBE39FD7-CC90-4EDA-A06E-75898A736EC6",
+          "lyric" : "함",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 24,
+          "pitch" : 67,
+          "startBeat" : 24,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "리"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "6B14638E-875C-4EA6-8CE0-BE6539EEC493",
+          "lyric" : "께",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 25,
+          "pitch" : 69,
+          "startBeat" : 25,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "만"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "DDB90034-E687-43D8-A387-A268FDB2F8EC",
+          "lyric" : "하",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 26,
+          "pitch" : 71,
+          "startBeat" : 26,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "의"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "9CF32521-3071-4126-8FC7-79796A2CA6D0",
+          "lyric" : "는",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 27,
+          "pitch" : 74,
+          "startBeat" : 27,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "자"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "DA9C926F-A759-4F54-BC6E-13391FB158AB",
+          "lyric" : "우",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 28,
+          "pitch" : 71,
+          "startBeat" : 28,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "유"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "B9596387-8D2F-4024-8C62-53A5E0730264",
+          "lyric" : "리",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 29,
+          "pitch" : 69,
+          "startBeat" : 29,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "노"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "D1397B0B-FC09-4932-A157-E1343D28C3DB",
+          "lyric" : "노",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 30,
+          "pitch" : 67,
+          "startBeat" : 30,
+          "velocity" : 90
+        },
+        {
+          "additionalLyrics" : [
+            "래"
+          ],
+          "channel" : 0,
+          "durationBeats" : 1,
+          "id" : "EAB9FA35-CEA8-47EB-A521-DB6C6052F96F",
+          "lyric" : "래",
+          "originalDurationBeats" : 1,
+          "originalStartBeat" : 31,
+          "pitch" : 67,
+          "startBeat" : 31,
+          "velocity" : 90
+        }
+      ]
+    }
+  ]
+}

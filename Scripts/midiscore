@@ -1,0 +1,32 @@
+#!/bin/bash
+set -euo pipefail
+
+project_dir="$(cd "$(dirname "$0")/.." && pwd)"
+binary="$project_dir/.build/midiscore-cli"
+sources=(
+  "$project_dir/Sources/FreeScore/ScoreModel.swift"
+  "$project_dir/Sources/FreeScore/ChordEntry.swift"
+  "$project_dir/Sources/FreeScore/MIDIService.swift"
+  "$project_dir/Sources/FreeScore/ScoreOperations.swift"
+  "$project_dir/Sources/FreeScore/RepeatPlayback.swift"
+  "$project_dir/Sources/FreeScoreCLI/main.swift"
+)
+
+rebuild=false
+if [[ ! -x "$binary" ]]; then
+  rebuild=true
+else
+  for source in "${sources[@]}"; do
+    if [[ "$source" -nt "$binary" ]]; then rebuild=true; break; fi
+  done
+fi
+if [[ "$rebuild" == true ]]; then
+  mkdir -p "$(dirname "$binary")"
+  temporary="$binary.$$"
+  trap 'rm -f "$temporary"' EXIT
+  swiftc -parse-as-library -module-name FreeScoreCLI "${sources[@]}" -o "$temporary"
+  mv "$temporary" "$binary"
+  trap - EXIT
+fi
+
+exec "$binary" "$@"

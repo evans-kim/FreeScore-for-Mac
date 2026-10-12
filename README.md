@@ -6,7 +6,7 @@ MIDI를 오선 악보와 피아노 롤로 열고, 음표·코드·가사·반복
 
 **[기능 소개와 실제 화면](https://evans-kim.github.io/FreeScore-for-Mac/)** · **[최신 버전 다운로드](https://github.com/evans-kim/FreeScore-for-Mac/releases/latest/download/FreeScore-for-Mac.zip)** · **[버전 기록](https://github.com/evans-kim/FreeScore-for-Mac/releases)**
 
-![FreeScore for Mac 악보 화면](site/assets/screenshots/score.png)
+![FreeScore for Mac 악보 화면](site/assets/screenshots/score.webp)
 
 ## 설치
 

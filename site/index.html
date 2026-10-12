@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b2b">
+  <meta name="description" content="FreeScore for Mac — MIDI를 악보로, 아이디어를 음악으로. Made with Codex.">
+  <meta property="og:title" content="FreeScore for Mac — Made with Codex">
+  <meta property="og:description" content="필요한 프로그램을 직접 만들어 쓰는 새로운 시대를 기념하는 Mac 악보 편집기.">
+  <meta property="og:image" content="https://evans-kim.github.io/FreeScore-for-Mac/assets/screenshots/score.webp">
+  <title>FreeScore for Mac — Made with Codex</title>
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#top"><img src="assets/icon.png" alt="" width="42" height="42"><span>FreeScore <small>for Mac</small></span></a>
+    <nav aria-label="주 메뉴"><a href="#features">기능</a><a href="#screens">화면</a><a href="#updates">업데이트</a><a href="https://github.com/evans-kim/FreeScore-for-Mac">GitHub ↗</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="spark">✦</span> MADE WITH CODEX <span class="version" id="version-badge">v0.5.0</span></p>
+        <h1>악보가 필요할 때,<br><em>직접 만드는 자유.</em></h1>
+        <p class="lead">MIDI에서 시작해 악보, 피아노 롤, 코드와 가사, 인쇄까지. <strong>FreeScore for Mac</strong>은 내가 필요한 프로그램을 직접 구현해서 쓰는 새로운 시대를 기념하는 앱입니다.</p>
+        <div class="actions"><a class="button primary" id="download" href="https://github.com/evans-kim/FreeScore-for-Mac/releases/latest/download/FreeScore-for-Mac.zip">Mac 앱 다운로드 <span aria-hidden="true">↘</span></a><a class="button secondary" href="https://github.com/evans-kim/FreeScore-for-Mac">소스 코드 보기 ↗</a></div>
+        <p class="install-note">macOS 14 이상 · 오픈 소스 MIT · 현재 배포본은 Apple 공증 전입니다.</p>
+      </div>
+      <div class="hero-image"><img src="assets/screenshots/score.webp" alt="FreeScore for Mac의 실제 악보 화면. 두 절의 한국어 가사와 G 장조 코드가 보인다." width="3220" height="1280"><span>실제 앱 화면 · 공개 예제 악보</span></div>
+    </section>
+
+    <section class="manifesto" aria-labelledby="manifesto-title"><div class="wrap manifesto-inner"><span class="asterisk" aria-hidden="true">✳</span><div><p class="eyebrow">A NEW KIND OF PERSONAL SOFTWARE</p><h2 id="manifesto-title">필요한 도구를 기다리지 않고<br>만들어 쓰는 시대.</h2><p>이 앱은 음악 작업의 작은 불편에서 출발했습니다. Codex와 함께 원하는 기능을 하나씩 구현해 실제 Mac 앱으로 만들었습니다. <strong>Made with Codex</strong>는 그 과정을 담은 선언입니다.</p></div></div></section>
+
+    <section class="section wrap" id="features"><div class="section-heading"><p class="eyebrow">WHAT YOU CAN DO</p><h2>곡의 처음부터 마지막까지</h2><p>MIDI를 가져온 뒤 음표를 다듬고, 노래를 완성해 악보로 출력하세요.</p></div><div class="feature-grid">
+      <article><span>01 / 편집</span><h3>악보와 피아노 롤</h3><p>오선지와 그리드 사이를 오가며 음의 높이, 시작, 길이를 직접 편집합니다. 다중 선택, 복사·붙여넣기와 4·8·16·32분음표 정렬을 지원합니다.</p></article>
+      <article><span>02 / 노래</span><h3>코드와 최대 4절 가사</h3><p>마디 위에서 코드를 입력하고, 조성을 바꾸면 코드도 옮깁니다. 한국어 한 글자씩 음표에 맞춰 가사를 쓰고 여러 절을 나란히 봅니다.</p></article>
+      <article><span>03 / 재생</span><h3>반복까지 따라가는 재생</h3><p>재생선에서 시작하고 메트로놈과 함께 녹음합니다. 도돌이표, 1·2번 괄호, D.C., D.S., Coda, Fine의 이동을 재생에 반영합니다.</p></article>
+      <article><span>04 / 출력</span><h3>페이지를 내 뜻대로</h3><p>한 줄의 마디 수, 음표·마디 간격, 행 여백과 가사 글꼴을 조절합니다. 세로·가로 인쇄 미리보기로 결과를 확인하세요.</p></article>
+    </div></section>
+
+    <section class="section gallery" id="screens"><div class="wrap"><div class="section-heading"><p class="eyebrow">REAL APP SCREENSHOTS</p><h2>눈으로 보는 FreeScore</h2><p>아래 화면은 공개 예제 프로젝트를 앱에서 직접 열어 캡처했습니다.</p></div>
+      <figure class="shot wide"><img loading="lazy" src="assets/screenshots/score.webp" alt="G 장조의 오선 악보, 마디별 코드, 한국어 1절과 2절 가사" width="3220" height="1280"><figcaption><b>01 · 악보</b><span>음표, 코드, 여러 절 가사를 한 화면에서</span></figcaption></figure>
+      <div class="shot-grid"><figure class="shot"><img loading="lazy" src="assets/screenshots/piano-roll.webp" alt="음표의 길이와 높이를 편집하는 피아노 롤 그리드" width="1900" height="1280"><figcaption><b>02 · 피아노 롤</b><span>그리드에서 음표를 직접 다듬기</span></figcaption></figure><figure class="shot"><img loading="lazy" src="assets/screenshots/page-settings.webp" alt="한 줄의 마디 수, 음표 간격, 행간과 가사 글꼴을 조절하는 페이지 설정" width="3220" height="1280"><figcaption><b>03 · 페이지 설정</b><span>악보의 밀도와 가독성을 조절</span></figcaption></figure></div>
+      <figure class="shot wide"><img loading="lazy" src="assets/screenshots/print-preview.webp" alt="A4 세로 방향 인쇄 미리보기. 두 줄의 악보와 코드, 두 절 가사가 종이 위에 배치된다." width="3220" height="1880"><figcaption><b>04 · 인쇄 미리보기</b><span>화면에서 확인한 구성대로 종이에</span></figcaption></figure>
+    </div></section>
+
+    <section class="section wrap updates" id="updates"><div><p class="eyebrow">DOWNLOAD &amp; UPDATES</p><h2>새 버전도 이곳에서</h2><p>최신 릴리스가 게시되면 이 페이지의 버전과 다운로드 링크가 자동으로 갱신됩니다. 버전별 변경 사항은 GitHub Releases에서 확인하세요.</p><div class="actions"><a class="button primary" href="https://github.com/evans-kim/FreeScore-for-Mac/releases">버전 기록 보기 ↗</a><a class="button secondary" href="https://github.com/evans-kim/FreeScore-for-Mac/pkgs/container/freescore-for-mac">GitHub Packages ↗</a></div></div><aside class="release-card"><small>LATEST RELEASE</small><strong id="release-version">v0.5.0</strong><p id="release-date">GitHub Releases에서 다운로드</p><a id="release-link" href="https://github.com/evans-kim/FreeScore-for-Mac/releases/latest">릴리스 상세 보기 →</a></aside></section>
+
+    <section class="install wrap"><h2>설치 방법</h2><ol><li>최신 ZIP을 다운로드하고 압축을 풉니다.</li><li><strong>FreeScore for Mac.app</strong>을 응용 프로그램 폴더로 옮깁니다.</li><li>첫 실행이 차단되면 Finder에서 앱을 Control-클릭해 <strong>열기</strong>를 선택합니다.</li></ol><p>자동 배포본은 현재 Apple 서명·공증이 없습니다. ZIP과 함께 제공되는 <code>SHA256SUMS.txt</code>로 파일 무결성을 확인할 수 있습니다. 개발자는 <a href="https://github.com/evans-kim/FreeScore-for-Mac/blob/main/docs/releasing.md">배포 안내</a>를 참고하세요.</p></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#top"><img src="assets/icon.png" alt="" width="32" height="32"><span>FreeScore <small>for Mac</small></span></a><p>Made with Codex · © 2026 Evans Kim · <a href="https://github.com/evans-kim/FreeScore-for-Mac/blob/main/LICENSE">MIT License</a></p></footer>
+</body>
+</html>
